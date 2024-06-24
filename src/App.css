@@ -598,7 +598,7 @@
   color: var(--para-color);
   background-color: var(--accordian1) !important;
   border: none;
-  border: 1px solid var(--accordian2) !important;
+  border: 1px solid var(--border2) !important;
   border-radius: 8px !important;
 
 }
