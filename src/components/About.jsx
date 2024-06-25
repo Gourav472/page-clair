@@ -42,9 +42,9 @@ const About = () => {
 
                 return { days, hours, minutes, seconds };
             });
-        }, 1000); // Run every second
+        }, 1000);
 
-        return () => clearInterval(interval); // Clean up interval on component unmount
+        return () => clearInterval(interval);
     }, []);
 
     const formatTime = (value) => {
