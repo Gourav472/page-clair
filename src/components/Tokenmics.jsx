@@ -11,7 +11,7 @@ const Tokenmics = () => {
             <section className=' bg-black bg-token-img pb-token mt-decrease position-relative' id='Tokenomics'>
                 <Container>
                     <Row className=' py-token '>
-                        <Col lg={6} className=' d-flex justify-content-center justify-content-lg-start align-items-lg-center'data-aos="fade-right">
+                        <Col lg={6} className=' d-flex justify-content-center justify-content-lg-start align-items-lg-center' data-aos="fade-right">
                             <div className=' d-flex flex-column'>
                                 <h2 className=' mb-0 white manrope fw-600 text-48 lh-57 text-center text-lg-start'>Tokenomics</h2>
                                 <div className=' d-flex align-items-center gap-3 pt-3  justify-content-center justify-content-lg-start'>
@@ -68,11 +68,13 @@ const Tokenmics = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col lg={6} className=' d-flex justify-content-center justify-content-lg-end mt-4 mt-lg-0'data-aos="fade-left">
-                            <img className=' w-100 max-491' src={tokenimg} alt="image" />
+                        <Col lg={6} className=' d-flex justify-content-center justify-content-lg-end mt-4 mt-lg-0' data-aos="fade-left">
+                            <img className=' d-sm-none w-100 max-491' src={tokenimg} alt="image" />
+                            <img className='d-none d-sm-block' width="491px" height="565px" src={tokenimg} alt="image" />
+
                         </Col>
                     </Row>
-                    <div className='community-box gradient-border2 w-100 d-flex justify-content-lg-between justify-content-center flex-wrap flex-lg-nowrap align-items-center mx-auto 'data-aos="fade-up">
+                    <div className='community-box gradient-border2 w-100 d-flex justify-content-lg-between justify-content-center flex-wrap flex-lg-nowrap align-items-center mx-auto ' data-aos="fade-up">
                         <div className=' d-flex align-items-center gap-community-box  justify-content-center justify-content-lg-start'>
                             <div className=' circle1  z-2 cursor d-flex align-items-center justify-content-center '>
                                 <img className=' z-2' src={fox} alt="svg" />

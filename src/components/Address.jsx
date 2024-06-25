@@ -21,7 +21,7 @@ const Address = () => {
     };
     return (
         <>
-            <section className='address-bg mt-decrease position-relative' id='cookie'>
+            <section className='address-bg mt-decrease position-relative ' id='cookie'>
                 <Container>
                     <div className='d-flex flex-column align-items-center py-address'>
                         <h2 className='mb-0 manrope fw-600 text-48 lh-57 text-center white'data-aos="fade-up">

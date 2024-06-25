@@ -53,7 +53,7 @@ const About = () => {
 
     return (
         <>
-            <section className=' bg-black about-mt position-relative' id='About'>
+            <section className=' bg-black about-mt position-relative overflow-hidden' id='About'>
                 <Container>
                     <div className=' d-flex flex-column align-items-center'>
                         <div className=' about-box z-0 gradient-border w-100 ' data-aos="fade-up">
@@ -209,7 +209,7 @@ const About = () => {
                                     <Common name="Learn More" />
                                 </div>
                             </div>
-                            <img className=' w-100 position-absolute z-1 alien-position max-284' src={alien} alt="alien" />
+                            <img className='d-none d-sm-block w-100 position-absolute z-1 alien-position max-284' src={alien} alt="alien" />
                         </div>
                     </div>
                 </Container>

@@ -48,7 +48,8 @@ const Herosection = () => {
             Buy $Clair
             <span><img src={cart} alt="kart" /></span>
           </button>
-          <img className='mt-4  mt-lg-0 max-810 w-100' src={image1} alt="img" />
+          <img className='mt-4 d-lg-none  mt-lg-0 max-810 w-100' src={image1} alt="img" />
+          <img className=' d-none d-lg-block' width="810px" height="427px" src={image1} alt="img" />
         </div>
       </Container>
       <div className='yellow-ellipse yellow-positon '></div>

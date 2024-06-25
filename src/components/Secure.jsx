@@ -25,17 +25,17 @@ const Secure = () => {
     return (
         <>
             <section className=' secure-bg  py-secure mt-decrease position-relative' id='Audit'>
-                <Container id='Privacy'>
+                <Container id='Privacy' className=' position-relative z-2'>
                     <Row>
-                        <Col lg={6} className=' d-flex justify-content-center'data-aos="fade-up-right">
+                        <Col lg={6} className=' d-flex justify-content-center' data-aos="fade-up-right">
 
                             <div className=' position-relative d-flex'>
-                                <img className=' w-100 max-245 mx-auto' src={secureimg} alt="image" />
+                                <img className=' mx-auto' width="245px" height="245px" src={secureimg} alt="image" />
                                 <img className=' layer-position mx-auto position-absolute max-layer ' src={secure2} alt="img2" />
                             </div>
 
                         </Col>
-                        <Col lg={6} className=' mt-secure-text d-flex justify-content-center justify-content-lg-start align-items-lg-center 'data-aos="fade-up-left">
+                        <Col lg={6} className=' mt-secure-text d-flex justify-content-center justify-content-lg-start align-items-lg-center ' data-aos="fade-up-left">
                             <div className=' d-flex align-items-center align-items-lg-start flex-column'>
                                 <p className=' mb-0 manrope fw-400 text-20 lh-30 links text-center text-lg-start'>Rest easy knowing that $CLAIR is</p>
                                 <p className=' manrope fw-600 text-32 lh-48 yellow pt-10 mb-0 text-center text-lg-start'>Fully Audited and 100% Secure.</p>
@@ -49,13 +49,13 @@ const Secure = () => {
                     <div className=' my-yellow-line yellow-line w-100'>
                     </div>
                     <Row className=' d-flex flex-column-reverse flex-lg-row '>
-                        <Col lg={6} className=' d-flex mt-5 justify-content-center justify-content-lg-end'data-aos="fade-right">
+                        <Col lg={6} className=' d-flex mt-5 justify-content-center justify-content-lg-end' data-aos="fade-right">
                             <div className=' d-flex flex-column'>
                                 <p className=' mb-0 white manrope fw-600 text-32 lh-48 text-center text-lg-start'>Listing on <span className=' yellow'>Major Exchanges</span></p>
                                 <p className=' mb-0 links manrope fw-400 text-20 lh-30 max-475 text-center text-lg-start pt-3'>Baby Sinclair’s Team is in action to secure the <span className=' yellow'>$CLAIR</span> listing on major exchanges. Exciting milestones ahead.</p>
                             </div>
                         </Col>
-                        <Col lg={6} className=' d-flex justify-content-center justify-content-lg-end align-items-lg-center'data-aos="fade-left">
+                        <Col lg={6} className=' d-flex justify-content-center justify-content-lg-end align-items-lg-center' data-aos="fade-left">
                             <div className=' slider_box w-100 gradient-border-slider d-flex flex-column '>
                                 <Slider {...settings}>
                                     <div className=' white-box cursor position-relative z-2 mx-3'>
@@ -87,6 +87,7 @@ const Secure = () => {
                     </Row>
                 </Container>
                 <div className='yellow-ellipse yellow-positon5 '></div>
+                <img className='d-none d-sm-block max-390 position-layer2 position-absolute' src={secure2} alt="secure" />
             </section>
         </>
     )
