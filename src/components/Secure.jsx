@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import secureimg from '../assets/images/secure-img1.webp'
-import secure2 from '../assets/images/cropped_layer.webp'
+import secure2 from '../assets/images/S.webp'
 import Common from '../common/Common'
 import coin1 from '../assets/images/svg/svg1.svg'
 import coin2 from '../assets/images/svg/svg2.svg'
