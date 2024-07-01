@@ -8,9 +8,8 @@ import { Language } from '../assets/icon';
 import cart from '../assets/images/svg/kart.svg'
 import image1 from '../assets/images/hero.webp'
 import bottomheader from '../assets/images/bottom-header.webp'
-import Light1 from "../assets/images/svg/light1.svg"
-import light2 from "../assets/images/svg/light2.svg"
 import Mouse from '../assets/images/svg/mouse.svg'
+import hero3 from '../assets/images/hero-mobile-img.webp'
 const Herosection = () => {
   return (
     <section className=' bg-hero position-relative '>
@@ -40,7 +39,7 @@ const Herosection = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      <Container>
+      <Container className=' position-relative'>
         <div className=' d-flex flex-column align-items-center pt-hero'>
           <h2 className=' mb-0 manrope fw-700 text-60 lh-72 white text-center'>Presale is <span className=' yellow'>Live</span></h2>
           <p className=' mb-0 manrope fw-400 text-16 lh-24 text-center max-702 pt-3 grey2'>Led by the most advanced AI technology, with a unique burn system to potentially increase its value significantly. Secure your chance to become the next millionaire!</p>
@@ -48,9 +47,13 @@ const Herosection = () => {
             Buy $Clair
             <span><img src={cart} alt="kart" /></span>
           </button>
-          <img className='mt-4 d-lg-none  mt-lg-0 max-810 w-100' src={image1} alt="img" />
-          <img className=' d-none d-lg-block' width="810px" height="427px" src={image1} alt="img" />
+          <div className=' hero-display'>
+            <img className='mt-4 d-lg-none  mt-lg-0 max-810 w-100' src={image1} alt="img" />
+            <img className=' d-none d-lg-block' width="810px" height="427px" src={image1} alt="img" />
+          </div>
+          <img className='w-100 max-w-1150 hero-display-2' src={hero3} alt="hero" />
         </div>
+        <div className='yellow-ellipse-2 yellow-positon-d1 '></div>
       </Container>
       <div className='yellow-ellipse yellow-positon '></div>
       <img className=' position-relative  min-w-1440 w-100 bottom-header' src={bottomheader} alt=" black-bottom" />

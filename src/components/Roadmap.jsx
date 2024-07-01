@@ -8,9 +8,8 @@ const Roadmap = () => {
             <section className=' roadmap-bg py-roadmap mt-decrease position-relative' id='Roadmap'>
                 <Container className=' position-relative z-2'>
                     <h2 className=' mb-0 white text-center manrope fw-600 text-48 lh-57 py-roadmap-text'>Roadmap</h2>
-
                     <Row>
-                        <Col md={6} lg={4} className=' mt-col-phase1 d-flex justify-content-center justify-content-md-end justify-content-lg-start'data-aos="flip-left">
+                        <Col md={6} lg={4} className=' mt-col-phase1 d-flex justify-content-center justify-content-md-end justify-content-lg-start' data-aos="flip-left">
                             <div className=' phase1  gradient-phase w-100  d-flex flex-column gap-2'>
                                 <h2 className=' manrope fw-500 text-32 lh-48 white mb-0 z-2'>Phase 1</h2>
                                 <div className=' d-flex align-items-center gap-2 ps-2 z-2'>
@@ -44,7 +43,7 @@ const Roadmap = () => {
                                 <img className='down-position position-absolute d-none d-lg-block' src={down} alt="arrow" />
                             </div>
                         </Col>
-                        <Col md={6} lg={4} className='mt-col-phase2 d-flex justify-content-center justify-content-md-start justify-content-lg-center'data-aos="flip-left">
+                        <Col md={6} lg={4} className='mt-col-phase2 d-flex justify-content-center justify-content-md-start justify-content-lg-center' data-aos="flip-left">
                             <div className=' phase1 gradient-phase w-100  d-flex flex-column gap-2'>
                                 <h2 className=' manrope fw-500 text-32 lh-48 white mb-0 z-2'>Phase 2</h2>
                                 <div className=' d-flex align-items-center gap-2 ps-2 z-2'>
@@ -79,7 +78,7 @@ const Roadmap = () => {
 
                             </div>
                         </Col>
-                        <Col md={12} lg={4} className=' mt-4 mt-lg-0 d-flex justify-content-center justify-content-lg-end'data-aos="flip-left">
+                        <Col md={12} lg={4} className=' mt-4 mt-lg-0 d-flex justify-content-center justify-content-lg-end' data-aos="flip-left">
                             <div className=' phase1 gradient-phase w-100   d-flex flex-column gap-2'>
                                 <h2 className=' manrope fw-500 text-32 lh-48 white mb-0 z-2'>Phase 3</h2>
                                 <div className=' d-flex align-items-center gap-2 ps-2 z-2'>
@@ -108,6 +107,8 @@ const Roadmap = () => {
                         </Col>
 
                     </Row>
+                    <div className='yellow-ellipse-2 yellow-positon-d6 '></div>
+                    <div className='yellow-ellipse-2 yellow-positon-d7 '></div>
                 </Container>
                 <img className='candles-img position-absolute z-1' src={candle1} alt="candle" />
                 <div className='yellow-ellipse yellow-positon6 '></div>

@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <>
             <footer className='  py-footer footer-bg-image mt-decrease position-relative'>
-                <Container id='down'>
+                <Container id='down' className=' position-relative'>
                     <div className=' d-flex flex-column align-items-center'>
                         <h2 className=' yellow mb-0 text-center manrope fw-600 text-60 lh-72'>$CLAIR</h2>
                         <p className=' mb-0 max-626 text-center manrope fw-400 text-16 lh-24 grey pt-20'>In this meme-driven world, laughter is not just a reaction; it's a powerful tool for chang
@@ -26,6 +26,7 @@ const Footer = () => {
                             <p className=' cursor mb-0 manrope fw-400 text-16 lh-24 grey ps-2'>© 2024 Baby Sinclair All rights reserved</p>
                         </div>
                     </div>
+                    <div className='yellow-ellipse-2 yellow-positon-d9 '></div>
                 </Container>
                 <div className='yellow-ellipse yellow-positon9 '></div>
 

@@ -9,7 +9,7 @@ const Tokenmics = () => {
     return (
         <>
             <section className=' bg-black bg-token-img pb-token mt-decrease position-relative' id='Tokenomics'>
-                <Container>
+                <Container className=' position-relative'>
                     <Row className=' py-token '>
                         <Col lg={6} className=' d-flex justify-content-center justify-content-lg-start align-items-lg-center' data-aos="fade-right">
                             <div className=' d-flex flex-column'>
@@ -89,7 +89,7 @@ const Tokenmics = () => {
                             <p className=' mb-0 manrope fw-400 text-16 lh-24 links text-center text-lg-start  z-2'>10% of every $CLAIR token sold post-presale will be dedicated to burning SHIB.</p>
                         </div>
                     </div>
-
+                    <div className='yellow-ellipse-2 yellow-positon-d4 '></div>
                 </Container>
                 <div className='yellow-ellipse yellow-positon4 '></div>
             </section>

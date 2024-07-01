@@ -8,7 +8,7 @@ const Social = () => {
     return (
         <>
             <section className=' bg-black py-social position-relative mt-decrease' id='Disclaimer'>
-                <Container>
+                <Container className=' position-relative'>
                     <div className=' d-flex flex-column align-items-center'>
                         <div className=' w-100 social-box z-2 gradient-border-social social-box-bg d-flex flex-column' data-aos="zoom-in">
                             <h2 className='mb-0 z-2 manrope fw-600 text-48 lh-57 white text-center'>Our <span className=' yellow'>Socials</span></h2>
@@ -21,8 +21,9 @@ const Social = () => {
                             </div>
                         </div>
                     </div>
+                    <div className='yellow-ellipse-2 yellow-positon-d8 '></div>
+                    <img className=' w-100 max-284 cartoon-position position-absolute d-none d-xl-block ' src={cartoon} alt="cartoon" />
                 </Container>
-                <img className=' w-100 max-284 cartoon-position position-absolute d-none d-xl-block ' src={cartoon} alt="cartoon" />
                 <div className='yellow-ellipse yellow-positon8 '></div>
             </section>
         </>

@@ -54,7 +54,7 @@ const About = () => {
     return (
         <>
             <section className=' bg-black about-mt position-relative overflow-hidden' id='About'>
-                <Container>
+                <Container className=' position-relative'>
                     <div className=' d-flex flex-column align-items-center'>
                         <div className=' about-box z-0 gradient-border w-100 ' data-aos="fade-up">
                             <Row className=' position-relative z-2'>
@@ -204,7 +204,7 @@ const About = () => {
                             <div className=' d-flex align-items-center flex-column gap-about-clair '>
                                 <p className='z-2 max-776 text-center pt-3 manrope fw-400 text-16 lh-24 grey mb-0' data-aos="fade-right">As you navigate through the avatars, you'll find each one has a unique voice, bringing laughter and a touch of sarcasm to the otherwise serious discussions in the crypto space.</p>
                                 <p className='z-2 max-776 text-center manrope fw-400 text-16 lh-24 grey mb-0' data-aos="fade-left">In a landscape where tensions can run high, Baby Sinclair’s memes serve as a reminder that, sometimes, the best way to confront challenges is with a good laugh.</p>
-                                <p className='z-2 max-776 text-center manrope fw-400 text-16 lh-24 grey mb-0' data-aos="fade-right">In this meme-driven world, laughter is not just a reaction; it's a powerful tool for change, and Baby Sinclair is wielding it with style. The bad players better watch out; the crypto defender is here, armed with memes and ready to act.</p>
+                                <p className='z-2 max-846 text-center manrope fw-400 text-16 lh-24 grey mb-0' data-aos="fade-right">In this meme-driven world, laughter is not just a reaction; it's a powerful tool for change, and Baby Sinclair is wielding it with style. The bad players better watch out; the crypto defender is here, armed with memes and ready to act.</p>
                                 <div className='z-2 py-about-btn max-135 d-flex justify-content-center' data-aos="fade-left">
                                     <Common name="Learn More" />
                                 </div>
@@ -212,6 +212,7 @@ const About = () => {
                             <img className='d-none d-sm-block w-100 position-absolute z-1 alien-position max-284' src={alien} alt="alien" />
                         </div>
                     </div>
+                    <div className='yellow-ellipse-2 yellow-positon-d2 '></div>
                 </Container>
                 <div className='yellow-ellipse yellow-positon2 '></div>
             </section>

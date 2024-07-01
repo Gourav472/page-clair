@@ -49,6 +49,7 @@
   background-image: url(./assets/images/hero-bg.webp);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .py-navbar {
@@ -334,8 +335,7 @@
 
 /*////////////Address////////////////// */
 .address-bg {
-  background-image: url(./assets/images/address-bg.webp);
-  background-color: var(--black);
+  background-image: url(./assets/images/address11.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -449,8 +449,7 @@
 
 /* //////////////////Token////////////////// */
 .secure-bg {
-  background-image: url(./assets/images/secure-bg.webp);
-  background-color: var(--background1);
+  background-image: url(./assets/images/secure11.webp);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -540,8 +539,7 @@
 
 /* ///////////////////Faq////////////////// */
 .faq-bg {
-  background: url(./assets/images/faq-bg.webp);
-  background-color: var(--background1);
+  background: url(./assets/images/faq11.webp);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -695,9 +693,9 @@
 }
 
 .footer-bg-image {
-  background-image: url(./assets/images/last.webp);
-  background-color: var(--background1);
+  background-image: url(./assets/images/footer11.webp);
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .box-line1 {
@@ -726,8 +724,8 @@
 }
 
 .cartoon-position {
-  right: 5%;
-  top: 20%;
+  right: -6%;
+  top: -10%;
 
 }
 
@@ -816,6 +814,17 @@
 }
 
 .yellow-ellipse {
+  width: 70px;
+  height: 70px;
+  filter: blur(60px);
+  background: var(--yellow);
+  position: absolute;
+  z-index: 3;
+  opacity: 60%;
+  display: none;
+}
+
+.yellow-ellipse-2 {
   width: 70px;
   height: 70px;
   filter: blur(60px);
@@ -919,20 +928,26 @@ input[type='range']::-webkit-slider-thumb {
 }
 
 .bg-token-img {
-  background-image: url(./assets/images/bg-token.webp);
+  background-image: url(./assets/images/token11.webp);
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.position-layer2 {
-  right: 25%;
-  bottom: 22%;
-  z-index: 1;
 }
 
 .max-390 {
   width: 300px;
   height: 300px;
+}
+
+.max-w-1150 {
+  max-width: 1150px;
+}
+
+.hero-display-2 {
+  display: none;
+}
+
+.max-846 {
+  max-width: 846px;
 }
 
 @media (min-width:576px) {
@@ -946,10 +961,6 @@ input[type='range']::-webkit-slider-thumb {
 }
 
 @media (min-width:768px) {
-  .position-layer2 {
-    right: 33%;
-    bottom: 22%;
-  }
 
   .py-navbar {
     padding-top: 26px !important;
@@ -1063,11 +1074,6 @@ input[type='range']::-webkit-slider-thumb {
 }
 
 @media (min-width:992px) {
-  .position-layer2 {
-    right: 9%;
-    bottom: 5%;
-  }
-
   .mouse-position {
     bottom: 30%;
     right: 32px;
@@ -1167,9 +1173,6 @@ input[type='range']::-webkit-slider-thumb {
 }
 
 @media (min-width:1200px) {
-  .position-layer2 {
-    right: 13%;
-  }
 
   .address-bg {
     background-size: 100% 100%;
@@ -1193,11 +1196,6 @@ input[type='range']::-webkit-slider-thumb {
     background-size: 100% 100%;
   }
 }
-@media (min-width:1500px) {
-  .position-layer2 {
-    right: 21%;
-  }
-}
 
 @media (min-width:1600px) {
   .bottom-header {
@@ -1207,21 +1205,80 @@ input[type='range']::-webkit-slider-thumb {
 
 @media (min-width:1921px) {
   .bottom-header {
-    margin-top: -180px;
+    display: none;
+    margin-top: unset;
   }
 
   .about-mt {
-    margin-top: -200px;
-  }
-}
-
-
-@media (min-width:4000px) {
-  .bottom-header {
-    margin-top: -280px;
+    margin-top: -2px;
+    padding-top: 66px;
   }
 
-  .about-mt {
-    margin-top: -380px;
+  .hero-display {
+    display: none;
   }
+
+  .hero-display-2 {
+    display: block;
+  }
+
+  .yellow-ellipse {
+    display: none;
+  }
+
+  .yellow-ellipse-2 {
+    display: block;
+  }
+
+  .yellow-positon-d1 {
+    left: -35%;
+    bottom: 20%;
+  }
+
+  .yellow-positon-d2 {
+    right: -35%;
+    top: 20%;
+  }
+
+  .yellow-positon-d3 {
+    left: -35%;
+    bottom: -5%;
+  }
+
+  .yellow-positon-d4 {
+    right: -35%;
+    bottom: -15%;
+  }
+
+  .yellow-positon-d5 {
+    right: -35%;
+    bottom: -30%;
+  }
+
+  .yellow-positon-d6 {
+    left: -35%;
+    top: 15%;
+  }
+
+  .yellow-positon-d7 {
+    right: -35%;
+    bottom: -55%;
+  }
+
+  .yellow-positon-d8 {
+    right: -35%;
+    top: -50%;
+  }
+
+  .yellow-positon-d9 {
+    left: -35%;
+    top: -30%;
+  }
+
+  .mouse-position {
+    bottom: 20%;
+    right: 12%;
+  }
+
+
 }
